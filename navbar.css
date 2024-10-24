@@ -2,6 +2,11 @@ nav.nav h1 {
 	margin: 0;
 }
 
+nav.nav .uk-logo,
+.mobile-menu .uk-logo {
+	font-size: 30px;
+}
+
 nav.nav .uk-logo img,
 .mobile-menu .uk-logo img {
 	width: auto;
