@@ -1,0 +1,16 @@
+nav.nav,
+nav.nav.uk-navbar-container:not(.uk-navbar-transparent) {
+	background-color: transparent;
+	filter: invert(100%);
+	mix-blend-mode: difference;
+}
+
+nav.nav .uk-navbar-nav > li.uk-active > a,
+nav.nav .uk-logo,
+nav.nav .uk-navbar-toggle {
+	color: #000;
+}
+
+.uk-navbar-container .uk-logo {
+	text-transform: uppercase;
+}

@@ -4,8 +4,65 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Moddictive</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+		<link rel="manifest" href="./assets/site.webmanifest" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css"
+		/>
+		<link rel="stylesheet" href="./variables.css" />
+		<link rel="stylesheet" href="./index.css" />
+		<link rel="stylesheet" href="./navbar.css" />
+		<link rel="stylesheet" href="./page-home.css" />
 	</head>
 	<body>
-		<h1>Moddictive</h1>
+		<nav class="nav uk-navbar-container" uk-sticky>
+			<div class="uk-container">
+				<div uk-navbar>
+					<div class="uk-navbar-left">
+						<a class="uk-navbar-item uk-logo uk-text-bolder" href="#" aria-label="Back to Home"
+							>Moddictive</a
+						>
+					</div>
+
+					<div class="uk-navbar-right">
+						<ul class="uk-navbar-nav uk-visible@m">
+							<li class="uk-active"><a href="#">Active</a></li>
+							<li>
+								<a href="#">Parent</a>
+								<div class="uk-navbar-dropdown">
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">Active</a></li>
+										<li><a href="#">Item</a></li>
+										<li><a href="#">Item</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">Item</a></li>
+						</ul>
+						<a
+							class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m"
+							uk-navbar-toggle-icon
+							href=""
+						></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<!-- <img class="floating-logo" src="./assets/logo.png" alt="Moddictive" /> -->
+			<section class="banner">
+				<video playsinline="true" autoplay="true" muted="true">
+					<source src="./assets/video-banner.mp4" type="video/mp4" />
+				</video>
+			</section>
+			<section class="uk-background-secondary"></section>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
 	</body>
 </html>

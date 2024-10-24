@@ -1,0 +1,19 @@
+/** UI Kit Overrides **/
+
+.uk-background-secondary {
+	background-color: #000;
+}
+
+/** Base **/
+main {
+	margin-top: -80px;
+}
+
+section.uk-background-secondary {
+	min-height: 100dvh;
+}
+
+/** Custom Classes 
+ * filter: invert(100%);
+ * mix-blend-mode: difference;
+ * **/
