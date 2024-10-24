@@ -1,3 +1,7 @@
+nav.nav h1 {
+	margin: 0;
+}
+
 nav.nav,
 nav.nav.uk-navbar-container:not(.uk-navbar-transparent) {
 	background-color: transparent;
@@ -5,12 +9,31 @@ nav.nav.uk-navbar-container:not(.uk-navbar-transparent) {
 	mix-blend-mode: difference;
 }
 
+nav.nav .uk-navbar-nav > li > a,
 nav.nav .uk-navbar-nav > li.uk-active > a,
 nav.nav .uk-logo,
 nav.nav .uk-navbar-toggle {
 	color: #000;
 }
 
+.mobile-menu .uk-logo,
 .uk-navbar-container .uk-logo {
 	text-transform: uppercase;
+}
+
+.mobile-menu .uk-logo {
+	min-height: 40px;
+	justify-self: flex-start;
+}
+
+.mobile-menu .uk-offcanvas-bar {
+	padding: 20px 15px;
+}
+
+.mobile-menu .uk-navbar-nav > li > a,
+.mobile-menu .uk-navbar-nav > li.uk-active > a,
+.mobile-menu .uk-logo,
+.mobile-menu .uk-navbar-toggle,
+.mobile-menu .uk-nav-default > li > a {
+	color: #fff;
 }

@@ -1,12 +1,13 @@
 /** UI Kit Overrides **/
 
-.uk-background-secondary {
+.uk-background-secondary,
+.uk-offcanvas-bar {
 	background-color: #000;
 }
 
 /** Base **/
 main {
-	margin-top: -80px;
+	margin-top: -100px;
 }
 
 section.uk-background-secondary {
