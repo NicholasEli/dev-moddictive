@@ -17,24 +17,36 @@
 	width: calc(100% - 2rem);
 	max-width: var(--sm);
 	position: absolute;
-	bottom: -0.5rem;
-	left: 0rem;
+	bottom: -1%;
+	left: -0.5rem;
 }
 
-.banner__content h6 {
+.banner__title {
+	display: flex;
 	margin: 0;
-	font-size: clamp(70px, 4vw, 80px);
+	font-size: 15vw;
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 0.6;
+	letter-spacing: -2px;
+	color: #000;
 }
-.banner__content h6 span {
-	display: block;
-	font-size: clamp(63px, 4vw, 80px);
+
+.banner__title span {
+	filter: invert(1);
 }
 
 .banner__content p {
 	line-height: 1.25;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 960px) {
+	.banner__content {
+		bottom: -5%;
+	}
+}
+
+@media (min-width: 1200px) {
 }
