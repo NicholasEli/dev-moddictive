@@ -2,6 +2,12 @@ nav.nav h1 {
 	margin: 0;
 }
 
+nav.nav .uk-logo img,
+.mobile-menu .uk-logo img {
+	width: auto;
+	height: 24px;
+}
+
 nav.nav,
 nav.nav.uk-navbar-container:not(.uk-navbar-transparent) {
 	background-color: transparent;
@@ -24,6 +30,11 @@ nav.nav .uk-navbar-toggle {
 .mobile-menu .uk-logo {
 	min-height: 40px;
 	justify-self: flex-start;
+}
+
+.mobile-menu .uk-logo img {
+	width: auto;
+	height: 24px;
 }
 
 .mobile-menu .uk-offcanvas-bar {
